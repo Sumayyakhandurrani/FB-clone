@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" href="imgs/facebook-icon.png">
+    <title>Facebook -by DurranKhan</title>
+</head>
+
+<body>
+    <nav>
+        <div class="nav-left">
+
+            <div class="logo">
+                <img src="imgs/facebook-icon.png" alt="facebook logo">
+            </div>
+            <div class="searchbar">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <input type="text" placeholder="search facebook">
+
+            </div>
+
+        </div>
+        <div class="nav-center">
+            <i class="fa-solid fa-house"></i>
+            <a href=""><i class="fa-solid fa-tv"></i></a>
+            <a href=""><i class="fa-solid fa-store"></i></a>
+            <a href=""><i class="fa-solid fa-users"></i></a>
+            <a href=""><i class="fa-solid fa-gamepad"></i></a>
+
+
+
+        </div>
+        <div class="nav-right">
+            <i class="fa-solid fa-bars"></i>
+            <i class="fa-brands fa-facebook-messenger"></i>
+            <i class="fa-solid fa-bell"></i>
+            <img src="imgs/profile-img.jpg" alt="profile image" class="profile-pic" width="35px" onclick="opencard();">
+            <div class="card-menu-wrap" id="cardwrap">
+                <div class="card-menu">
+                    <div class="profile-menu">
+                        <img src="imgs/profile-img.jpg" alt="" width="35px" class="image">
+                        <p>Durran khan</p>
+                    </div>
+                    <a href="#" class="card-menu-item">
+                        <img src="imgs/meta icon.png" alt="" height="29px" width="28px">
+                        <p>Meta bussiness suit</p>
+                        <span>></span>
+                    </a>
+                    <a href="#" class="card-menu-item">
+                        <img src="imgs/gear-solid.svg" alt="">
+                        <p>Setting and Privacy</p>
+                        <span>></span>
+                    </a>
+                    <a href="#" class="card-menu-item">
+                        <img src="imgs/question-solid.svg" alt="" height="30px">
+                        <p>Help & Support</p>
+                        <span>></span>
+                    </a>
+                    <a href="#" class="card-menu-item">
+                        <img src="imgs/display-solid.svg" alt="">
+                        <p>Display & Accessibility</p>
+                        <span>></span>
+                    </a>
+                    <a href="#" class="card-menu-item">
+                        <img src="imgs/comments-regular.svg" alt="">
+                        <p>Give feedback </p>
+                    </a>
+                    <a href="#" class="card-menu-item">
+                        <img src="imgs/arrow-right-from-bracket-solid.svg" alt="">
+                        <p>LogOut</p>
+                    </a>
+                </div>
+            </div>
+
+
+        </div>
+    </nav>
+    <div class="main">
+        <div class="left">
+            <div class="img">
+                <img src="imgs/profile-img.jpg" alt="" class="my-image">
+                <p>Durran Khan</p>
+            </div>
+            <div class="img">
+                <img src="imgs/users-solid.svg" alt="" class="my-icon">
+                <p>Friends</p>
+            </div>
+            <div class="img">
+                <img src="imgs/newspaper-solid.svg" alt="" class="my-icon">
+                <p>News</p>
+            </div>
+            <div class="img">
+                <img src="imgs/user-group-solid.svg" alt="" class="my-icon">
+                <p>Groups</p>
+            </div>
+            <div class="img">
+                <img src="imgs/video-solid.svg" alt="" class="my-icon">
+                <p>Videos</p>
+            </div>
+            <div class="img">
+                <img src="imgs/calendar-regular.svg" alt="" class="my-icon">
+                <p>Events</p>
+            </div>
+            <div class="img">
+                <img src="imgs/shop-solid.svg" alt="" class="my-icon">
+                <p>Marketplace</p>
+            </div>
+            <div class="img">
+                <img src="imgs/comment-solid.svg" alt="" class="my-icon">
+                <p>Feeds</p>
+            </div>
+            <div class="img">
+                <img src="imgs/clock-rotate-left-solid.svg" alt="" class="my-icon">
+                <p>Memories</p>
+            </div>
+            <div class="img">
+                <img src="imgs/flag-solid.svg" alt="" class="my-icon">
+                <p>Pages</p>
+            </div>
+            <div class="img">
+                <img src="imgs/bookmark-solid.svg" alt="" class="my-icon">
+                <p>Saved</p>
+            </div>
+            <div class="img">
+                <img src="imgs/angle-down-solid.svg" alt="" class="my-icon">
+                <p>See More</p>
+            </div>
+            <hr>
+            <div class="shortcuts">
+                <p>Your shorcuts</p>
+                <a href="#">Edit</a>
+            </div>
+            <div class="img">
+                <img src="imgs/floating-rhapsody-bubbles-ai-generated-free-photo.jpg" alt="" class="my-image">
+                <p>Bubble Game</p>
+            </div>
+            <div class="img">
+                <img src="imgs/candycrush.png" alt="" class="my-image">
+                <p>Candy Crush</p>
+            </div>
+            <div class="img">
+                <img src="imgs/download.jpg" alt="" class="my-image">
+                <p>Bubble shooter</p>
+            </div>
+
+        </div>
+        <div class="center">
+             <div class="top-box">
+                <div class="my-story">
+                    <img src="imgs/profile-img.jpg" alt="">
+                    <div class="upload">
+                        <img src="imgs/plus-solid.svg" alt="">
+                        <p>Add your story</p>
+                    </div>
+                </div>
+                <div class="friends-story">
+                    <img src="imgs/baberazam2.jpg" alt="">
+                    <div class="friend-profile">
+                        <img src="imgs/baber azam.jpg" alt="">
+                        <div class="circle"></div>
+                    </div>
+                    <div class="friend-name">
+                        <p>Baber Azam</p>
+                    </div>
+                </div>
+                <div class="friends-story">
+                    <img src="imgs/iphone.jpg" alt="">
+                    <div class="friend-profile">
+                        <img src="imgs/steve jobs.jpg" alt="">
+                        <div class="circle"></div>
+                    </div>
+                    <div class="friend-name">
+                        <p>Steve Jobs</p>
+                    </div>
+                </div>
+                <div class="friends-story">
+                    <img src="imgs/worldcup.jpg" alt="">
+                    <div class="friend-profile">
+                        <img src="imgs/michael stark.jpg" alt="">
+                        <div class="circle"></div>
+                    </div>
+                    <div class="friend-name">
+                        <p>Mitchell Starck</p>
+                    </div>
+                </div>
+                
+            </div> 
+            <div class="create-post">
+                <div class="ptop">
+                    <img src="imgs/profile-img.jpg" alt="profile-image">
+                    <input type="text" placeholder="What's on your mind , Durran Khan!">
+                </div>
+                <hr>
+                <div class="pbottom">
+                    <div class="post-icon">
+                        <i class="fa-solid fa-video red"></i>
+                        <p>Live Video</p>
+                    </div>
+                    <div class="post-icon">
+                        <i class="fa-solid fa-image green"></i>
+                        <p>Photos/Videos</p>
+                    </div>
+                    <div class="post-icon">
+                        <i class="fa-solid fa-face-grin yellow"></i>
+                        <p>Feeling/Activity</p>
+                    </div>
+                </div>
+            </div>
+            <div class="friends-post">
+                <div class="friends-ptop">
+                    <div class="image-name">
+                        <img src="imgs/baber azam.jpg" alt="">
+                        <div class="friends-name">
+                            <p class="friends-name" id="name-1">Baber Azam</p>
+                            <p class="time" id="time-2">. 2hr . <i class="fa-solid fa-users"></i></p>
+                        </div>
+                    </div>
+                    <div class="menu">
+                        <i class="fa-solid fa-ellipsis"></i>
+                    </div>
+                </div>
+                 <p style="margin-left: 30px;"> Just a candid one  &#128247; </p>
+                <img src="imgs/post1.jpg" alt="">
+                <div class="info">
+                    <div class="post-icons">
+                        <img src="imgs/like-icon.png" alt="">
+                        <img src="imgs/heart-icon.jpg" alt="">
+                        <p>you and 3.4M others</p>
+                    </div>
+                    <div class="comment">
+                        <p>4k comment</p>
+                        <p>3.8shares</p>
+                    </div>
+                </div>
+                <hr>
+                <div class="like">
+                    <div class="like-icon">
+                        <i class="fa-solid fa-thumbs-up active"></i>
+                        <p>like</p>
+                    </div>
+                    <div class="like-icon">
+                        <i class="fa-solid fa-message"></i>
+                        <p>Comments</p>
+                    </div>
+                    <div class="like-icon">
+                        <i class="fa-solid fa-share"></i>
+                        <p>Share</p>
+                    </div>
+                </div>
+                <hr>
+                <div class="comment-wrapper">
+                  <img src="imgs/profile-img.jpg" alt="">
+                    <div class="circle"></div>
+                
+                    <div class="comment-search">
+                          <input type="text" placeholder="Write a comment">
+                          <i class="fa-solid fa-face-smile"></i>
+                          <i class="fa-solid fa-camera"></i>
+                          <i class="fa-regular fa-note-sticky"></i>
+                    </div>
+                </div>
+            
+            </div>
+            <div class="friends-post">
+                <div class="friends-ptop">
+                    <div class="image-name">
+                        <img src="imgs/rizwan.jpg" alt="">
+                        <div class="friends-name">
+                            <p class="friends-name" id="name-1">Muhummad Rizwan</p>
+                            <p class="time" id="time-2">. 2hr . <i class="fa-solid fa-users"></i></p>
+                        </div>
+                    </div>
+                    <div class="menu">
+                        <i class="fa-solid fa-ellipsis"></i>
+                    </div>
+                </div>
+                 <p style="margin-left: 30px;">Ready</p>
+                <img src="imgs/post2.jpg" alt="">
+                <div class="info">
+                    <div class="post-icons">
+                        <img src="imgs/like-icon.png" alt="">
+                        <img src="imgs/heart-icon.jpg" alt="">
+                        <p>you and 3.4M others</p>
+                    </div>
+                    <div class="comment">
+                        <p>4k comment</p>
+                        <p>3.8shares</p>
+                    </div>
+                </div>
+                <hr>
+                <div class="like">
+                    <div class="like-icon">
+                        <i class="fa-solid fa-thumbs-up active"></i>
+                        <p>like</p>
+                    </div>
+                    <div class="like-icon">
+                        <i class="fa-solid fa-message"></i>
+                        <p>Comments</p>
+                    </div>
+                    <div class="like-icon">
+                        <i class="fa-solid fa-share"></i>
+                        <p>Share</p>
+                    </div>
+                </div>
+                <hr>
+                <div class="comment-wrapper">
+                  <img src="imgs/profile-img.jpg" alt="">
+                    <div class="circle"></div>
+                
+                
+                <div class="comment-search">
+                    <input type="text" placeholder="Write a comment">
+                    <i class="fa-solid fa-face-smile"></i>
+                    <i class="fa-solid fa-camera"></i>
+                    <i class="fa-regular fa-note-sticky"></i>
+                </div>
+            </div>
+            </div>
+        </div>
+        
+        <div class="right">
+            <div class="sponsered-section">
+                <div class="sponsered-link">
+                    <img src="imgs/advertising1.jpg" alt="">
+                    <p>Online Advertisement Services<br><a href="">onlineservices.com</a></p>
+                </div>
+                <div class="sponsered-link">
+                    <img src="imgs/advertising2.jpg" alt="">
+                    <p>Online Advertisement Services<br><a href="">onlineservices.com</a></p>
+                </div>
+            </div>
+            <hr>
+            <div class="page-section">
+                <h4>Your Pages and Profile</h4>
+                <div class="page-link">
+                    <img src="imgs/profile-img.jpg" alt="">
+                    <p>Your Profile</p>
+                </div>
+                <div class="page-link-item">
+                    <img src="imgs/code-compare-solid.svg" alt="">
+                    <p>Switch to page</p>
+                </div>
+                <div class="page-link-item">
+                    <img src="imgs/bullhorn-solid.svg" alt="">
+                    <p>Create Promotions</p>
+                </div>
+            </div>
+            <hr>
+            <div class="friend-section">
+                <h4>Friends Requests</h4>
+                <div class="page-link">
+                    <img src="imgs/ellon-musk.jpg" alt="">
+                    <p>Ellon Musk</p>
+                </div>
+                <div class="buttons">
+                    <button class="conform" type="submit">Conform</button>
+                    <button class="delete" type="submit">Delete</button>
+                </div>
+            </div>
+            <hr>
+            <div class="contact-section">
+                <div class="search">
+                <h4>Contacts</h4>
+                <img src="imgs/magnifying-glass-solid.svg" alt="">
+                <img src="imgs/ellipsis-solid.svg" alt="">
+            </div>
+                <div class="page-link">
+                    <div class="online">
+                        <img src="imgs/baber azam.jpg" alt="">
+                    </div>
+                    <p>Baber Azam</p>
+                </div>
+                <div class="page-link">
+                    <div class="online">
+                        <img src="imgs/steve jobs.jpg" alt="">
+                    </div>
+                    <p>Steve Jobs</p>
+                </div>
+                <div class="page-link">
+                    <div class="online">
+                        <img src="imgs/rohit sharma.jpeg" alt="">
+                    </div>
+                    <p>Rohit Sharma</p>
+                </div>
+                <div class="page-link">
+                    <div class="online">
+                        <img src="imgs/zukurberg.jpg" alt="">
+                    </div>
+                    <p>Mark Zukarberg</p>
+                </div>
+                <div class="page-link">
+                    <div class="online">
+                        <img src="imgs/michael stark.jpg" alt="">
+                    </div>
+                    <p>Mitchel Starck</p>
+                </div>
+                <div class="page-link">
+                    <div class="online">
+                        <img src="imgs/maxwell.jpg" alt="">
+                    </div>
+                    <p>Maxwell</p>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
